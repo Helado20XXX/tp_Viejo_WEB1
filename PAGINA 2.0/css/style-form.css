@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 22%;
+    margin-top: 7%;
+}
+div.captcha{
+    width: 100%;
+}
+div.suma{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+}
+main article {
+    flex-direction: column;
+    align-items: center;
+}
+main article.formulario div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+main article label {
+    margin: 2%; 
+}
+main article input{
+    margin: 2%;
+}
+main article button {
+    margin: 3%;
+    width: 20vw;
+    height: 3.1vh;
+}
+main article div {
+    background-color: rgba(193, 11, 11, 0.5);
+
+}

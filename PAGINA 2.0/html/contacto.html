@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-form.css">
+    <link rel="stylesheet" href="../css/style-desktop.css">
+</head>
+<body>
+    
+    <header>
+        <div class="div-menu">
+            <figure class="logo">
+                <img src="../images/Logo.png" alt="Logo" loading="lazy">
+            </figure>
+            <button class="btn-color" id="btn"><img src="../images/cambio-temas.png" alt="cambio-temas" id="imagen-temas" loading="lazy"></button>
+            <button class="boton-menu" id="btn"><img  src="../images/menu-hamburguesa.png" alt="imagen-menu" id="imagen-menu" loading="lazy"></button>
+        </div>  
+
+        <nav class="menu">
+            <ul class="navegacion">
+                <li><a href="../html/index.html">Home</a></li>
+                <li><a href="../html/codeo.html">El Codeo De Minecraft</a></li>
+                <li><a href="../html/Historia.html">Historia</a></li>
+                <li><a href="../html/contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="formulario" id="form"> 
+            <div id="theme">
+                <label>Nombre: </label>
+                <input type="text" placeholder="Su nombre de pila" class="nombre" required>
+
+                <label>apellido: </label>
+                <input type="text" placeholder="Su apellido" class="apellido" required>
+
+                <label>Gmail: </label>
+                <input type="email" placeholder="....@gmail.com">
+
+                <label>Numero de telefono: </label>
+                <input type="number" placeholder= "Su numero celular" class="numero" required>
+            </div>
+
+            <div class="suma">
+                <div id="captcha"></div>
+
+                <input type="text" id="respuesta" required>
+
+                <button type="submit" id="btn-captcha">Enviar</button>
+
+                <p id="resultado"></p>
+            </div>
+        </article>
+    </main>
+
+    <script type="text/JavaScript" src="../js/javaScript.js"></script>
+    <script type="text/JavaScript" src="../js/captcha.js"></script>
+    <script type="text/JavaScript" src="../js/cambio-tema.js"></script>
+</body>
+</html>

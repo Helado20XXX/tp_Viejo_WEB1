@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+p{
+    color: white;
+    padding: 3%;
+}
+h2 {
+    color: aliceblue;
+}
+body {
+    background-image: url(../images/Fondo2.png);
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 99vw;
+}
+
+
+/*Cambios de temas */
+.claro {
+    background-color: rgba(237, 224, 224, 0.5);
+}
+.oscuro{
+    color: black;
+}
+.cobstone {
+    background-color: rgba(83, 82, 82, 0.5);
+}
+.label {
+    color: aliceblue;
+}
+.fondo{
+    background-image: url(../images/fondo-tema.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.menu ul li.celeste {
+    background-color: rgb(20, 127, 163);
+}
+header div.div-menu button.azul {
+    background-color: blue;
+}
+/*Cierre de cambio de temas*/
+
+
+
+main article div p::first-letter {
+    font-size: 150%;
+}
+.div-menu{
+    padding: 1%;
+    height: 10vh;
+    width: 98%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+header div.div-menu button {
+    background: rgb(118,84,60);
+}
+header div.div-menu button img {
+    height: 5vh;
+}
+header div.div-menu button.btn-color{
+    margin-left: 35%;
+}
+.logo img {
+    height: 9.5vh;
+}
+.menu-toggle {
+    margin-left: auto;
+    color:black;
+    line-height:40px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.menu{
+    width: 99vw;
+}
+.menu ul li{
+    display: flex;
+    width: 99vw;
+    justify-content: center;
+    background-color: chartreuse;
+    padding: 0 15px;
+    margin-bottom: 1%;
+}
+.menu ul li a{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition: .2s;
+}
+.menu ul li a:hover{
+    background-color: #6fca7f;
+}
+ul.navegacion {
+    width: 99vw;
+    display: none;
+    flex-direction: column;
+}
+ul.navegacion.column {
+    display: flex;
+}
+
+/*Seccion Historia*/
+main article div.historia{
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+main section div p::first-letter {
+    font-size: 150%;
+}
+main section div {
+    text-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(71, 68, 68, 0.3);
+}
+div h2 {
+    font-size: 200%;
+    text-decoration: underline;
+}
+main section div.historia p{
+    font-size: 30px;
+}
+/*Seccion Historia*/
+
+
+
+main article{
+    font-size: large;
+    margin: 1%;
+}
+main article figure img {
+    height: 25vh;
+    background: none;
+    width: 100%;
+    padding: 2%;
+}
+main article div {
+    background-color: rgba(71, 68, 68, 0.5);
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+main article div#theme {
+    margin-top: 7%;
+}
+
+div#captcha {
+    text-decoration:line-through;
+}
